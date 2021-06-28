@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    margin-left: 100px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    margin-left: 100px;
+    font-weight: 300;
+    margin-top: 0;
+    padding-top:0;
+}
+
+form {
+    padding-left: 100px;
+    width: 600px;
+    overflow: hidden;
+}
+
+span {
+    color : #B34C7D;
+}
+
+form input[type="text"], form input[type="email"] {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 2px black;
+    outline: none;
+    padding: 5px;
+    font-size: 10px;
+}
+
+form input[type="submit"]
+{
+    margin-top: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.inputtest {
+    display: block;
+    margin-top: 20px;
+}
+
+
+label {
+    padding-right: 30px;
+    display: block;
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+}
+
+#anim-input, #anim-vm {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    right: -28px;
+    bottom: -26px;
+}
+
+#anim-beer {
+    width: 300px;
+    height: 300px;
+}
